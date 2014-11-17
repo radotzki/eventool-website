@@ -1,0 +1,14 @@
+
+<div ng-file-drop="onFileSelect($files)" class="dropfile col-lg-8 col-lg-offset-2" ng-file-drag-over-class="dropingfile">
+</div>
+
+<div class="col-lg-8 col-lg-offset-2">
+	<div ng-repeat="image in images">
+		<div class="col-lg-3 form-horizontal text-center" id="list">
+			<img class="img-thumbnail form-group" src="{{image}}" />
+			<a ng-click="deleteImage(image)" class="delete-btn form-group"> delete </a>
+		</div>
+	</div>
+</div>
+
+

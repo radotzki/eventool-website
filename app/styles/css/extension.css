@@ -1,0 +1,24 @@
+.navbar-brand{font-size: 22px;}
+
+
+#content {
+    min-height:500px;
+    height:auto !important;
+    height:500px; 
+}
+
+
+.main-visual
+{
+    background: url(../imgs/party_people.jpg) #233445 center top no-repeat;background-size: cover;
+}
+
+.main-visual .container
+{
+    padding:180px 0
+}
+
+.main-visual .bg-inverse
+{
+    background-color: rgba(35,52,69,0.75);
+}
