@@ -1,0 +1,21 @@
+{
+  "name": "eventool-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "git checkout gh-pages && git rebase master && git push && git checkout master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radotzki/eventool-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radotzki/eventool-website/issues"
+  },
+  "homepage": "https://github.com/radotzki/eventool-website#readme"
+}
